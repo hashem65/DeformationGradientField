@@ -1,0 +1,3 @@
+gfx read node stage0.00.ex2 time 0.000000
+gfx read node stage0.90.ex2 time 0.900000
+gfx read node stage1.00.ex2 time 1.000000
