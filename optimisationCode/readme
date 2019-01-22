@@ -1,0 +1,8 @@
+After extracting the kinematic growth rates from the deformation gradient field 
+The aim is to use them for the optimisation process. 
+
+The first objective is fitting 
+The second objective is smoothness which is: 
+       The Driver on this folder reads the kinematic rates, and then compute the gradient of them... 
+       and compares the gradient with the gradient of the rates on each iteration ... 
+
