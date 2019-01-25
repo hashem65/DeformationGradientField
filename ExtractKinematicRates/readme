@@ -1,0 +1,26 @@
+
+
+A number of files and folders are there in this repo ... quite mixing ,,, needs full explanation 
+
+This folder which is named "ExtractKinematicRates" has a number of files and generates more ... .
+
+The python file growthDefGradEstimstion 
+                - calls the TubeGenerator file 
+                - reads two meshes 
+                - needs to have a folder next to its current folder to create the files and everything 
+                - outputs the def grad or growth rates (coming from the Matrix log mean) on Gauss Points 
+                - can output rates at time step of the whole deformation 1.00 or 0.90 or whatever time setup 
+                
+                
+                
+The python file FitGaussToNode 
+                - Can read a "rates.1.00.pky" or "rates.0.90.pky" file or a defgrad file 
+                - The rates are on the Gausspoints to be read .... or to be created 
+                - Fit the rates on the nodes to be able to calculate the gradient ... 
+                - can be called separately when having the growth rates on nodes ... **** the cylinder example was like that ****
+                - read the growth field on the mesh or can be set up inside code 
+                - generates ftestrates.npy as the result... 
+                
+                
+                
+                
